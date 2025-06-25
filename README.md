@@ -84,18 +84,52 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 ## How to Run the Project
 
+1. Clone or download this repository to your local computer.
+2. Ensure you have R and RStudio installed ([Download R](https://cran.r-project.org/), [Download RStudio](https://posit.co/download/rstudio-desktop/)).
+3. Open `employee_analysis.R` or `employee_analysis.Rmd` in RStudio.
+4. Install dependencies by running:
+    ```r
+    install.packages("tidyverse")
+    install.packages("ggplot2")
+    ```
+5. Run all code chunks, or click **Knit** if using the R Markdown version.
+6. View the plots and summary results in the output or saved images.
+
+---
+
+**Note:**  
+- If your code reads a file like `ISYS3446_A1_IntelliAuto-1.xlsx`, ensure that file is included in your repo and the path is set correctly in the script (e.g., `"./ISYS3446_A1_IntelliAuto-1.xlsx"`).
+- If you have a specific folder structure, mention where to put the data.
+
+---
+
+**Example:**
+
+```markdown
+## How to Run the Project
+
 1. Clone this repository:
     ```bash
     git clone https://github.com/nikp712/Employee-working-hours-analysis.git
     ```
-2. Navigate to the project directory:
-    ```bash
-    cd Employee-working-hours-analysis
+
+2. Open RStudio, then open `employee_analysis.R`.
+
+3. Make sure the dataset file (`ISYS3446_A1_IntelliAuto-1.xlsx`) is in the same folder.
+
+4. Install the required packages if you haven’t yet:
+    ```r
+    install.packages("readxl")
+    install.packages("dplyr")
+    install.packages("ggplot2")
     ```
-3. Run the analysis script (R):
-    ```bash
-    Rscript Employee-working-hours-analysis.R
+
+5. Run the script:
+    ```r
+    source("employee_analysis.R")
     ```
+
+6. The output plots will appear in the RStudio plot viewer, and images will be saved to the project directory.
 
 ---
 

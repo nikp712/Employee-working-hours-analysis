@@ -124,7 +124,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 ## Author
 
-Nhi Phan | RMIT University  
+Nik Phan | RMIT University  
 Final year student, Bachelor of Business Information Systems (Expected November 2025)
 
 ---

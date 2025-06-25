@@ -41,24 +41,28 @@ This project explores and visualises employee working hours data using R, incorp
 ## Sample Visualizations
 
 1. Number of Working Hours
+   This barplot summarizes the frequency distribution of working hours among employees.
+   
 ![image](https://github.com/user-attachments/assets/d3d171eb-fc38-47a1-a8a4-f2d5e679d2ee)
 
-This barplot summarizes the frequency distribution of working hours among employees.
 
-2. Boxplot for Working Hours of Employee
+3. Boxplot for Working Hours of Employee
+   This boxplot presents the distribution of employee working hours.
+   
 ![image](https://github.com/user-attachments/assets/99442fc0-4a8a-4398-9175-4b041de3624f)
 
-This boxplot presents the distribution of employee working hours.
  
 3. Employees Working over 40 Hours
+   This scatterplot visualizes which employees work more than 40 hours per week.
+   
 ![image](https://github.com/user-attachments/assets/1f937705-92c8-44a2-ab80-522769f47161)
 
-This scatterplot visualizes which employees work more than 40 hours per week.
 
 5. Proportion of Female Employees
+This chart shows gender representation in the workforce.
+   
 ![image](https://github.com/user-attachments/assets/e4d174f6-9af2-403e-b257-1f0276248b53)
 
-This chart shows gender representation in the workforce.
   
 ## How to Use
 

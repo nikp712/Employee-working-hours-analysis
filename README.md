@@ -98,7 +98,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 ---
 
 **Note:**  
-- If your code reads a file like `ISYS3446_A1_IntelliAuto-1.xlsx`, ensure that the file is included in your repo and the path is set correctly in the script (e.g., `"./ISYS3446_A1_IntelliAuto.xlsx"`).
+- If your code reads a file like `ISYS3446_A1_IntelliAuto.xlsx`, ensure that the file is included in your repo and the path is set correctly in the script (e.g., `"./ISYS3446_A1_IntelliAuto.xlsx"`).
 - If you have a specific folder structure, mention where to put the data.
 
 ---

@@ -29,7 +29,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 ---
 
 ## Data Summary
-- **Dataset:** Employee records from [ISYS3446_A1_IntelliAuto-1.xlsx]
+- **Dataset:** Employee records from [ISYS3446_A1_IntelliAuto.xlsx]
 - **Key Columns:**
     - `WorkHrs`, `Sex`, `Age`, `WrkYears`, `FutPromo`, `Occupation`
 
@@ -86,7 +86,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 1. Clone or download this repository to your local computer.
 2. Ensure you have R and RStudio installed ([Download R](https://cran.r-project.org/), [Download RStudio](https://posit.co/download/rstudio-desktop/)).
-3. Open `employee_analysis.R` or `employee_analysis.Rmd` in RStudio.
+3. Open `Employee-working-hours-analysis.R` in RStudio.
 4. Install dependencies by running:
     ```r
     install.packages("tidyverse")
@@ -98,7 +98,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 ---
 
 **Note:**  
-- If your code reads a file like `ISYS3446_A1_IntelliAuto-1.xlsx`, ensure that file is included in your repo and the path is set correctly in the script (e.g., `"./ISYS3446_A1_IntelliAuto-1.xlsx"`).
+- If your code reads a file like `ISYS3446_A1_IntelliAuto-1.xlsx`, ensure that the file is included in your repo and the path is set correctly in the script (e.g., `"./ISYS3446_A1_IntelliAuto.xlsx"`).
 - If you have a specific folder structure, mention where to put the data.
 
 ---
@@ -113,9 +113,9 @@ This project analyzes employee HR data to explore trends in working hours, gende
     git clone https://github.com/nikp712/Employee-working-hours-analysis.git
     ```
 
-2. Open RStudio, then open `employee_analysis.R`.
+2. Open RStudio, then open `Employee-working-hours-analysis.R`.
 
-3. Make sure the dataset file (`ISYS3446_A1_IntelliAuto-1.xlsx`) is in the same folder.
+3. Make sure the dataset file (`ISYS3446_A1_IntelliAuto.xlsx`) is in the same folder.
 
 4. Install the required packages if you haven’t yet:
     ```r
@@ -126,7 +126,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 5. Run the script:
     ```r
-    source("employee_analysis.R")
+    source("Employee-working-hours-analysis.R")
     ```
 
 6. The output plots will appear in the RStudio plot viewer, and images will be saved to the project directory.

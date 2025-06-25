@@ -112,7 +112,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 ## Future Improvements
 - Enhance regression modelling (add more features, use machine learning).
-- Build an interactive dashboard (e.g., R Shiny, Tableau).
+- Build an interactive dashboard (e.g. Tableau).
 - Expand demographic analysis (department, tenure, performance).
 
 ---

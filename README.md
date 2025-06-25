@@ -119,8 +119,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 ## Acknowledgments
 - Dataset: RMIT University course ISYS3446.
-- Libraries: `ggplot2`, `dplyr` (R); `pandas`, `matplotlib` (Python, optional).
-
+- Libraries: `ggplot2`, `dplyr` (R).
 ---
 
 ## Author

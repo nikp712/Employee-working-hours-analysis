@@ -86,17 +86,16 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/yourusername/employee-hr-analysis.git
+    git clone https://github.com/nikp712/Employee-working-hours-analysis.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd employee-hr-analysis
+    cd Employee-working-hours-analysis
     ```
 3. Run the analysis script (R):
     ```bash
-    Rscript employee_analysis.R
+    Rscript Employee-working-hours-analysis.R
     ```
-    *or run the Jupyter Notebook version if provided.*
 
 ---
 

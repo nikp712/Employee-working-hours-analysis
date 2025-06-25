@@ -1,44 +1,49 @@
-# Employees Working Hours Analysis (R)
-Analysis of employee working hours using R for statistical summaries and visualizations
+# Employee Work Hours & Promotion Analysis
+
+## Table of Contents
+1. [Overview](#overview)
+2. [Project Features](#project-features)
+3. [Data Summary](#data-summary)
+4. [Preprocessing Steps](#preprocessing-steps)
+5. [Visualizations and Analysis](#visualizations-and-analysis)
+6. [Key Insights](#key-insights)
+7. [How to Run the Project](#how-to-run-the-project)
+8. [Results](#results)
+9. [Future Improvements](#future-improvements)
+10. [Acknowledgments](#acknowledgments)
+
+---
 
 ## Overview
+This project analyzes employee HR data to explore trends in working hours, gender diversity, and promotion readiness. Using R for data cleaning, analysis, and visualization, the project provides workforce insights for informed decision making.
 
-This project explores and visualises employee working hours data using R, incorporating descriptive statistics, outlier detection, and demographic breakdowns to provide actionable insights for HR management and workforce planning.
+---
 
-## Objectives
+## Project Features
+- **Exploratory Data Analysis:** Work hours, gender, experience, and promotions.
+- **Data Cleaning:** Handling missing values and outliers for quality insights.
+- **Statistical Summaries:** Mean, median, variance, outlier checks.
+- **Visual Analytics:** Informative barplots, boxplots, and scatterplots.
+- **Promotion Analysis:** Initial regression modelling for succession planning.
 
-- Summarize employee working hours with key statistics (mean, median, range, variance, etc.)
-- Visualize work hour distribution using barplots and boxplots
-- Detect and display outliers (e.g., staff working >60 hours)
-- Analyze gender proportions and long working hour patterns
-- Provide code that’s clear, reusable, and portfolio-ready
+---
 
-## Methodology
+## Data Summary
+- **Dataset:** Employee records from [ISYS3446_A1_IntelliAuto-1.xlsx]
+- **Key Columns:**
+    - `WorkHrs`, `Sex`, `Age`, `WrkYears`, `FutPromo`, `Occupation`
 
-1. **Statistical Analysis:**  
-   - Calculate central tendency and spread (mean, median, variance, sd, IQR)
-   - Identify outliers and display with boxplot.stats
-2. **Visualization:**  
-   - Barplot for the distribution of working hours  
-   - Boxplot for range and outliers  
-   - Scatterplot for staff working >40 hours  
-   - Barplot for gender (Sex) proportion
-3. **Subgroup Analysis:**  
-   - List staff working >40 and >60 hours, and filter by gender
-   - Extract and display targeted columns for deeper inspection
+---
 
-## Files
+## Preprocessing Steps
+1. Imported and reviewed the dataset.
+2. Checked for and addressed missing values.
+3. Transformed/standardized variable names and data types.
+4. Identified outliers in work hours for further review.
 
-- `Employees-working-hours-analysis.R` — The R script for all analysis and plots
-- *(Your data file, e.g. `ISYS3446_A1_IntelliAuto-1.xlsx`, not included for privacy)*
+---
 
-## Key Results
-
-- Identified average, median, and range of staff working hours.
-- Highlighted employees working excessive hours (>60), enabling targeted HR intervention.
-- Visualized gender breakdown and long-hour staff as part of workforce planning.
-
-## Sample Visualizations
+## Visualizations and Analysis
 
 1. Number of Working Hours
    
@@ -67,13 +72,53 @@ This project explores and visualises employee working hours data using R, incorp
    
 ![image](https://github.com/user-attachments/assets/e4d174f6-9af2-403e-b257-1f0276248b53)
 
-  
-## How to Use
+---
 
-1. Place your dataset (e.g., `ISYS3446_A1_IntelliAuto-1.xlsx`) in your R working directory.
-2. Open `Employees-working-hours-analysis.R` in RStudio.
-3. Adjust the script to load your data frame if needed.
-4. Run the script section by section to reproduce statistics and plots.
+## Key Insights
+- Slightly more male than female employees; gender diversity can be improved.
+- Many staff exceed 40 working hours per week—potential overwork risk.
+- Most employees have standard working weeks, but several are clear outliers.
+- Regression and boxplot analysis show that age and experience influence promotion readiness.
+
+---
+
+## How to Run the Project
+
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/yourusername/employee-hr-analysis.git
+    ```
+2. Navigate to the project directory:
+    ```bash
+    cd employee-hr-analysis
+    ```
+3. Run the analysis script (R):
+    ```bash
+    Rscript employee_analysis.R
+    ```
+    *or run the Jupyter Notebook version if provided.*
+
+---
+
+## Results
+- All plots successfully generated.
+- Outliers flagged for review.
+- Initial regression points to experience and age as promotion predictors.
+
+---
+
+## Future Improvements
+- Enhance regression modelling (add more features, use machine learning).
+- Build an interactive dashboard (e.g., R Shiny, Tableau).
+- Expand demographic analysis (department, tenure, performance).
+
+---
+
+## Acknowledgments
+- Dataset: RMIT University course ISYS3446.
+- Libraries: `ggplot2`, `dplyr` (R); `pandas`, `matplotlib` (Python, optional).
+
+---
 
 ## Author
 

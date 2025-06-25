@@ -103,36 +103,6 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
 ---
 
-**Example:**
-
-```markdown
-## How to Run the Project
-
-1. Clone this repository:
-    ```bash
-    git clone https://github.com/nikp712/Employee-working-hours-analysis.git
-    ```
-
-2. Open RStudio, then open `Employee-working-hours-analysis.R`.
-
-3. Make sure the dataset file (`ISYS3446_A1_IntelliAuto.xlsx`) is in the same folder.
-
-4. Install the required packages if you haven’t yet:
-    ```r
-    install.packages("readxl")
-    install.packages("dplyr")
-    install.packages("ggplot2")
-    ```
-
-5. Run the script:
-    ```r
-    source("Employee-working-hours-analysis.R")
-    ```
-
-6. The output plots will appear in the RStudio plot viewer, and images will be saved to the project directory.
-
----
-
 ## Results
 - All plots successfully generated.
 - Outliers flagged for review.
@@ -159,5 +129,4 @@ Nhi Phan | RMIT University
 Final year student, Bachelor of Business Information Systems (Expected November 2025)
 
 ---
-
 

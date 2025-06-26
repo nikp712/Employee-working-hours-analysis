@@ -71,8 +71,9 @@ barplot(
 ```bash
 boxplot(
   ISYS3446_A1_IntelliAuto$WorkHrs,
+  xlab = "Employee",
   ylab = "Distribution of Working Hours",
-  main = "Boxplot for Working Hours of Staff",
+  main = "Boxplot for Working Hours of Employee",
   col = "green"
 )
 ```

@@ -93,6 +93,7 @@ plot(
   xlab = "Worked Hours",
   main = "Employees Working over 40 Hours"
   col = "navy"
+)
 ```
    
 ![image](https://github.com/user-attachments/assets/1f937705-92c8-44a2-ab80-522769f47161)

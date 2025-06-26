@@ -135,8 +135,7 @@ barplot(
 3. Open `Employee-working-hours-analysis.R` in RStudio.
 4. Install dependencies by running:
     ```r
-    install.packages("tidyverse")
-    install.packages("ggplot2")
+    install.packages("dplyr")
     ```
 5. Run all code chunks, or click **Knit** if using the R Markdown version.
 6. View the plots and summary results in the output or saved images.
@@ -165,7 +164,7 @@ barplot(
 
 ## Acknowledgments
 - Dataset: RMIT University course ISYS3446.
-- Libraries: `ggplot2`, `dplyr` (R).
+- Libraries: `dplyr` (R).
 ---
 
 ## Author

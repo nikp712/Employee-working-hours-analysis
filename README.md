@@ -86,12 +86,13 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
    Code:
 ```bash
-   boxplot(
+plot(
   ISYS3446_A1_IntelliAuto_1$WorkHrs,
-  ylab = "Distribution of Working Hours",
-  main = "Boxplot for Working Hours of Staff",
-  col = "green"
-)
+  ISYS3446_A1_IntelliAuto_1$WorkHrs > 40,
+  ylab = "Worked More Than 40 Hours (TRUE=1/FALSE=0)",
+  xlab = "Worked Hours",
+  main = "Employees Working over 40 Hours"
+  col = "navy"
 ```
    
 ![image](https://github.com/user-attachments/assets/1f937705-92c8-44a2-ab80-522769f47161)

@@ -89,7 +89,7 @@ boxplot(
 plot(
   ISYS3446_A1_IntelliAuto$WorkHrs,
   ISYS3446_A1_IntelliAuto$WorkHrs > 40,
-  ylab = "Worked More Than 40 Hours (TRUE=1/FALSE=0)",
+  ylab = "Worked More Than 40 Hours (TRUE=1, FALSE=0)",
   xlab = "Worked Hours",
   main = "Employees Working over 40 Hours"
   col = "navy"

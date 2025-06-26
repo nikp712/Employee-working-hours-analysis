@@ -51,7 +51,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
    Code:
 ```bash
-  barplot(
+barplot(
   table(ISYS3446_A1_IntelliAuto$WorkHrs),
   xlab = "Hours of Working",
   ylab = "Number of Employees",
@@ -69,7 +69,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
 
    Code:
 ```bash
-   boxplot(
+boxplot(
   ISYS3446_A1_IntelliAuto$WorkHrs,
   ylab = "Distribution of Working Hours",
   main = "Boxplot for Working Hours of Staff",
@@ -99,7 +99,7 @@ plot(
 ![image](https://github.com/user-attachments/assets/1f937705-92c8-44a2-ab80-522769f47161)
 
 
-5. Proportion of Female Employees
+4. Proportion of Female Employees
 
    This chart shows gender representation in the workforce.
 

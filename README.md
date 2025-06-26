@@ -48,13 +48,34 @@ This project analyzes employee HR data to explore trends in working hours, gende
 1. Number of Working Hours
    
    This barplot summarizes the frequency distribution of working hours among employees.
+
+   Code:
+```bash
+  barplot(
+  table(ISYS3446_A1_IntelliAuto_1$WorkHrs),
+  xlab = "Hours of Working",
+  ylab = "Number of Employees",
+  main = "Number of Working Hours",
+  col = "blue"
+)
+```
    
 ![image](https://github.com/user-attachments/assets/d3d171eb-fc38-47a1-a8a4-f2d5e679d2ee)
 
 
-3. Boxplot for Working Hours of Employee
+2. Boxplot for Working Hours of Employee
    
    This boxplot presents the distribution of employee working hours.
+
+   Code:
+```bash
+   boxplot(
+  ISYS3446_A1_IntelliAuto_1$WorkHrs,
+  ylab = "Distribution of Working Hours",
+  main = "Boxplot for Working Hours of Staff",
+  col = "green"
+)
+```
    
 ![image](https://github.com/user-attachments/assets/99442fc0-4a8a-4398-9175-4b041de3624f)
 
@@ -62,6 +83,16 @@ This project analyzes employee HR data to explore trends in working hours, gende
 3. Employees Working over 40 Hours
    
    This scatterplot visualizes which employees work more than 40 hours per week.
+
+   Code:
+```bash
+   boxplot(
+  ISYS3446_A1_IntelliAuto_1$WorkHrs,
+  ylab = "Distribution of Working Hours",
+  main = "Boxplot for Working Hours of Staff",
+  col = "green"
+)
+```
    
 ![image](https://github.com/user-attachments/assets/1f937705-92c8-44a2-ab80-522769f47161)
 
@@ -69,6 +100,18 @@ This project analyzes employee HR data to explore trends in working hours, gende
 5. Proportion of Female Employees
 
    This chart shows gender representation in the workforce.
+
+   Code:
+```bash
+t1 <- prop.table(table(ISYS3446_A1_IntelliAuto_1$Sex))
+barplot(
+  t1,
+  legend.text = TRUE,
+  ylab = "Proportion",
+  main = "Proportion of Female Employees",
+  col = c("red", "blue")
+)
+```
    
 ![image](https://github.com/user-attachments/assets/e4d174f6-9af2-403e-b257-1f0276248b53)
 

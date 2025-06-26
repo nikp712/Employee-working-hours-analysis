@@ -163,7 +163,7 @@ barplot(
 ---
 
 ## Acknowledgments
-- Dataset: RMIT University course ISYS3446.
+- Dataset: RMIT University.
 - Libraries: `dplyr` (R).
 ---
 

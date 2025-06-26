@@ -52,7 +52,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
    Code:
 ```bash
   barplot(
-  table(ISYS3446_A1_IntelliAuto_1$WorkHrs),
+  table(ISYS3446_A1_IntelliAuto$WorkHrs),
   xlab = "Hours of Working",
   ylab = "Number of Employees",
   main = "Number of Working Hours",
@@ -70,7 +70,7 @@ This project analyzes employee HR data to explore trends in working hours, gende
    Code:
 ```bash
    boxplot(
-  ISYS3446_A1_IntelliAuto_1$WorkHrs,
+  ISYS3446_A1_IntelliAuto$WorkHrs,
   ylab = "Distribution of Working Hours",
   main = "Boxplot for Working Hours of Staff",
   col = "green"
@@ -87,8 +87,8 @@ This project analyzes employee HR data to explore trends in working hours, gende
    Code:
 ```bash
 plot(
-  ISYS3446_A1_IntelliAuto_1$WorkHrs,
-  ISYS3446_A1_IntelliAuto_1$WorkHrs > 40,
+  ISYS3446_A1_IntelliAuto$WorkHrs,
+  ISYS3446_A1_IntelliAuto$WorkHrs > 40,
   ylab = "Worked More Than 40 Hours (TRUE=1/FALSE=0)",
   xlab = "Worked Hours",
   main = "Employees Working over 40 Hours"
@@ -105,7 +105,7 @@ plot(
 
    Code:
 ```bash
-t1 <- prop.table(table(ISYS3446_A1_IntelliAuto_1$Sex))
+t1 <- prop.table(table(ISYS3446_A1_IntelliAuto$Sex))
 barplot(
   t1,
   legend.text = TRUE,
